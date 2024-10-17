@@ -51,12 +51,12 @@ export class AuthService {
 		return null;
 	}
 
-	async Logout() {
+	async logout() {
 		try {
 			// const logout = this.account.deleteSessions(); // deletesessions will logout id from all browsers
 			const logout = this.account.deleteSession("current"); // deletesessions will logout id from all devices
-		} catch (e) {
-			console.log("Appwrite error: Logout:: ", e);
+		} catch (error) {
+			console.log("Appwrite serive :: logout :: error", error);
 		}
 	}
 }
