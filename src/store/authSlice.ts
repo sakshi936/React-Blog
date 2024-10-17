@@ -1,6 +1,15 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
+interface AuthState {
+	status: boolean;
+	userData: {
+		id: string;
+		name: string;
+		email: string;
+	} | null; // userData is null when the user is logged out
+}
+
+const initialState: AuthState = {
 	status: false,
 	userData: null,
 };
