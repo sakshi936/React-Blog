@@ -1,4 +1,7 @@
-import Header from "./Header/header";
-import Footer from "./Footer/footer";
+import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
+import Container from "./container/Container";
+import Logo from "./Logo";
+import LogoutBtn from "./atoms/LogoutBtn";
 
-export { Header, Footer };
+export { Header, Footer, Container, Logo, LogoutBtn };
