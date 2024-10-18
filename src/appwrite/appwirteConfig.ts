@@ -87,7 +87,10 @@ export class Services {
 			return await this.bucket.getFilePreview(config.appwriteBucketId, fileId);
 		} catch (error) {
 			console.log("Appwrite:: getFilePreview ", error);
-			return false;
+			return ""; // empty string inplace of url
 		}
 	}
 }
+
+const service = new Services();
+export default service;
