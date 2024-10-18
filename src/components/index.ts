@@ -3,5 +3,6 @@ import Footer from "./Footer/Footer";
 import Container from "./container/Container";
 import Logo from "./Logo";
 import LogoutBtn from "./atoms/LogoutBtn";
-
-export { Header, Footer, Container, Logo, LogoutBtn };
+import Button from "./atoms/Button";
+import Input from "./atoms/Input";
+export { Header, Footer, Container, Logo, LogoutBtn, Button, Input };
