@@ -4,7 +4,7 @@ interface AuthState {
 	status: boolean;
 	userData: {
 		id: string;
-		name: string;
+		name?: string;
 		email: string;
 	} | null; // userData is null when the user is logged out
 }
