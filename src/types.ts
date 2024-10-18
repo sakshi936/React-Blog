@@ -31,3 +31,8 @@ export interface userData {
 	email: string;
 	password: string;
 }
+
+export interface AuthProps {
+	children: ReactNode;
+	authentication?: boolean;
+}
