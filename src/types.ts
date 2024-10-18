@@ -25,3 +25,9 @@ export interface PostCardProps {
 	title: string;
 	featuredImage: string;
 }
+
+export interface userData {
+	name?: string;
+	email: string;
+	password: string;
+}
