@@ -19,3 +19,9 @@ export interface SelectBtnProps extends SelectHTMLAttributes<HTMLSelectElement> 
 	label?: string;
 	className?: string;
 }
+
+export interface PostCardProps {
+	$id: string;
+	title: string;
+	featuredImage: string;
+}
